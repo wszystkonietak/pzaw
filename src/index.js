@@ -10,6 +10,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Sci />
+    <Sci />
+    <Sci />
     <App />
   </React.StrictMode>
 );
