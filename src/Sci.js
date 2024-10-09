@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 
 function Sci() {
     const inputRef = useRef()
@@ -8,6 +8,7 @@ function Sci() {
     const handleInputText = (event) => {
         console.log(event.target.value)
     }
+    
     return ( 
         <div className="Sci">
             <input type="button" value="baton" onClick={handleButton}></input>
