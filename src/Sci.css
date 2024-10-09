@@ -1,3 +1,13 @@
 .Sci2 {
     text-align: center;
 }
+
+.light {
+    color: red;
+    background-color: white;
+}
+.dark {
+    color: lightgreen;
+    background-color: gray;
+}
+ 
