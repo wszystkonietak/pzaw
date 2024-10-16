@@ -6,11 +6,13 @@ import App from './App';
 import Sci from './Sci';
 import Sci2 from './Sci2';
 import reportWebVitals from './reportWebVitals';
+import Sci3 from './Sci3';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Sci2 />
+    <Sci3 />
+
   </React.StrictMode>
 );
 
