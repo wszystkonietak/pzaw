@@ -10,4 +10,19 @@
     color: lightgreen;
     background-color: gray;
 }
- 
+
+.Row {
+    display: flex;
+}
+
+.Box {
+    border-style: solid;
+    height:300px;
+    width:calc(1/6);
+    margin: 5px;
+}
+
+.grid {
+    display:grid;
+    grid-template-columns: repeat(6, 1fr); 
+}
